@@ -59,7 +59,7 @@ RXD -> PIN 3
 TXD -> PIN 2  
 Libraries ->  VoiceRecognitionV3  
 Train speech   
-Open Libraries ->VoiceRecognitionV3 -> vr_sample_train   
+Open Libraries ->VoiceRecognitionV3 -> examples -> vr_sample_train   
 
 
 
