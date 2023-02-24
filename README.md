@@ -10,6 +10,7 @@ download from folder Libraries or download zip. file form [link](https://drive.g
 Wiring diagram.pdf
 
 ## LED RGB  
+Libraries -> Adafruit_NeoPixel  
 PIN for Arduino R3
 PIN 6   
 PIN 7  
@@ -23,10 +24,38 @@ function :
 ```
 
 ## LCD module 
+Libraries -> LiquidCrystal_I2C 
 PIN for Arduino R3
 SDA -> PIN A4
 SCL -> PIN A5
+
 ```
 function : 
 lcd_print(1,"idektepLevel 4",1,"Graphics");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
 ```
+## LCD module 
+Libraries -> Servo
+PIN for Arduino R3
+Sevro Head PIN 10   
+Servo arm left PIN 11
+Servo arm Right PIN 12  
+
+```
+function : 
+head_shake(x,y);                //สายหัว  x คือ หันไปทางซ้าย เท่าไหร่ ได้ตั้งแต่ 0 - 100  y คือ หันไปทางซ้ายเท่าไหร่ ได้ตั้งแต่ 100 - 180 
+begin_head();                   //หันหน้าตรง
+head_turnleft(x);               //ส่ายหัว ไปทางซ้าย  x คือค่าองศา ตั้งแต่ 0-100
+head_turnright(x)               //ส่ายหัว ไปทางซ้าย  x คือค่าองศา ตั้งแต่ 100 - 180
+lift_twohand();                 //ยกมือขึ้น 2 มือ 
+lift_righthand();               //ยกมือ ซ้าย ขึ้น
+lift_lefthand();                //ยกมือ ขวา ขึ้น
+begin_twohand();                //มือสอง มืออยู่ในท่าปกติ 
+begin_righthand();              // มือ ซ้าย อยู่ในท่าปกติ
+begin_lefthand();               // มือ ขวา อยู่ในท่าปกติ
+```
+
+
+
+
+
+
