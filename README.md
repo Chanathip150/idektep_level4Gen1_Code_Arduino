@@ -12,9 +12,11 @@ Wiring diagram.pdf
 ## RGB 
 PIN 6   
 PIN 7  
+```
 function : 
   1.  theaterChase(strip.Color(255, 0, 0), 50) ;      colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 0 -> Red
   2.  rainbow(30);                                    // RGB show rainbow 
   3.  rainbowCycle(30);                               // RGB show rainbow Cycle 
   4.  theaterChase(strip.Color(255, 255, 15),50);     //color  blinker -> theaterChase(strip.Color(R, G, B),50); edit R G B =  255 255 15 -> Yellow 
   5.  theaterChaseRainbow(30);                        //color  blinker
+'''
