@@ -33,7 +33,7 @@ SCL -> PIN A5
 function : 
 lcd_print(1,"idektepLevel 4",1,"Graphics");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
 ```
-## LCD module 
+## Servo motor
 Libraries -> Servo  
 PIN for Arduino R3  
 Sevro Head PIN 10     
