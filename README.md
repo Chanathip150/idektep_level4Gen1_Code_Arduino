@@ -63,7 +63,7 @@ Open Libraries ->VoiceRecognitionV3 -> examples -> vr_sample_train
 Open file   vr_sample_train   upload and Open serial Monitor  
 Link Video  examples Train
 https://youtu.be/tzp4MtapnT4
-[![][(https://youtu.be/tzp4MtapnT4)](https://youtu.be/tzp4MtapnT4)
+
 
 
 
