@@ -7,3 +7,4 @@ download from folder Libraries or download zip. file form [link](https://drive.g
   4.VoiceRecognitionV3  
   
 ## Circuit
+Wiring diagram.pdf
