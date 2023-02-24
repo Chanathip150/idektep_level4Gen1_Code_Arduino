@@ -10,10 +10,10 @@ download from folder Libraries or download zip. file form [link](https://drive.g
 Wiring diagram.pdf
 
 ## LED RGB  
-Libraries -> Adafruit_NeoPixel  
-PIN for Arduino R3
-PIN 6   
-PIN 7  
+Libraries -> Adafruit_NeoPixel    
+PIN for Arduino R3  
+PIN 6     
+PIN 7    
 ```
 function : 
   1.  theaterChase(strip.Color(255, 0, 0), 50) ;      colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 0 -> Red
@@ -24,21 +24,21 @@ function :
 ```
 
 ## LCD module 
-Libraries -> LiquidCrystal_I2C 
-PIN for Arduino R3
-SDA -> PIN A4
-SCL -> PIN A5
+Libraries -> LiquidCrystal_I2C   
+PIN for Arduino R3  
+SDA -> PIN A4  
+SCL -> PIN A5  
 
 ```
 function : 
 lcd_print(1,"idektepLevel 4",1,"Graphics");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
 ```
 ## LCD module 
-Libraries -> Servo
-PIN for Arduino R3
-Sevro Head PIN 10   
-Servo arm left PIN 11
-Servo arm Right PIN 12  
+Libraries -> Servo  
+PIN for Arduino R3  
+Sevro Head PIN 10     
+Servo arm left PIN 11  
+Servo arm Right PIN 12    
 
 ```
 function : 
