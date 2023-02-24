@@ -61,10 +61,15 @@ Libraries ->  VoiceRecognitionV3
 Train speech   
 Open Libraries ->VoiceRecognitionV3 -> examples -> vr_sample_train   
 Open file   vr_sample_train   upload and Open serial Monitor  
-Link Video  examples Train
+Video examples Train 
 https://youtu.be/tzp4MtapnT4
 
-
+## integration code
+Voice recognition module v3   -> LCD + RGB + Servo  
+Download Integration_master 
+Open file Name Integration_master  
+Description Integration_master 
+link -> https://youtu.be/VBlgh3psJ4Q  
 
 
 
