@@ -10,6 +10,7 @@ download from folder Libraries or download zip. file form [link](https://drive.g
 Wiring diagram.pdf
 
 ## RGB 
+PIN for Arduino R3
 PIN 6   
 PIN 7  
 ```
@@ -19,4 +20,4 @@ function :
   3.  rainbowCycle(30);                               // RGB show rainbow Cycle 
   4.  theaterChase(strip.Color(255, 255, 15),50);     //color  blinker -> theaterChase(strip.Color(R, G, B),50); edit R G B =  255 255 15 -> Yellow 
   5.  theaterChaseRainbow(30);                        //color  blinker
-'''
+```
