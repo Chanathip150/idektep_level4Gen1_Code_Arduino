@@ -54,7 +54,12 @@ begin_righthand();              // มือ ซ้าย อยู่ในท�
 begin_lefthand();               // มือ ขวา อยู่ในท่าปกติ
 ```
 
-
+## Voice recognition module v3  
+RXD -> PIN 3  
+TXD -> PIN 2  
+Libraries ->  VoiceRecognitionV3  
+Train speech   
+Open Libraries ->VoiceRecognitionV3 -> vr_sample_train   
 
 
 
