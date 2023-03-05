@@ -1,20 +1,3 @@
-
-//void setup_RGB(){
-//  #if defined (__AVR_ATtiny85__)
-//    if (F_CPU == 16000000) clock_prescale_set(clock_div_1);
-//  #endif
-//
-//
-//  strip.begin();
-//  strip.setBrightness(50);
-//  strip.show(); // Initialize all pixels to 'off'
-//
-//  strip2.begin();
-//  strip2.setBrightness(50);
-//  strip2.show(); // Initialize all pixels to 'off'
-//}
-
-
 // Fill the dots one after the other with a color
 void colorWipe(uint32_t c, uint8_t wait) {
   for(uint16_t i=0; i<strip.numPixels(); i++) {
