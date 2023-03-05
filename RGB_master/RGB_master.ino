@@ -24,7 +24,7 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  colorWipe(strip.Color(255, 0, 0), 50);  //RGB Color pink edit colorWipe(strip.Color(R, G, B), 50);
+    colorWipe(strip.Color(205,96,144), 50);                  //RGB Color pink edit colorWipe(strip.Color(R, G, B), 50);
 //  theaterChase(strip.Color(255, 0, 0), 50) ;               //colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 0 -> Red
 //  theaterChase(strip.Color(255, 0, 255), 20) ;             //colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 255 -> Pink
 //  rainbow(30);                                             // RGB show rainbow 
