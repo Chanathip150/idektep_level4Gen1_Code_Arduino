@@ -24,15 +24,16 @@ void setup() {
 
 void loop() {
   // put your main code here, to run repeatedly:
-  theaterChase(strip.Color(255, 0, 0), 50) ;               //colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 0 -> Red
-  theaterChase(strip.Color(255, 0, 255), 20) ;             //colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 255 -> Pink
-  rainbow(30);                                             // RGB show rainbow 
-  rainbowCycle(30);                                        // RGB show rainbow Cycle
-  theaterChase(strip.Color(255, 255, 15),50);              //color  blinker -> theaterChase(strip.Color(R, G, B),50); edit R G B =  255 255 15 -> Yellow 
-  theaterChaseRainbow(30);                                 //color  blinker
+  colorWipe(strip.Color(255, 0, 0), 50);  //RGB Color pink edit colorWipe(strip.Color(R, G, B), 50);
+//  theaterChase(strip.Color(255, 0, 0), 50) ;               //colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 0 -> Red
+//  theaterChase(strip.Color(255, 0, 255), 20) ;             //colorWipe(strip.Color(R, G, B), 50) edit R G B =  255 0 255 -> Pink
+//  rainbow(30);                                             // RGB show rainbow 
+//  rainbowCycle(30);                                        // RGB show rainbow Cycle
+//  theaterChase(strip.Color(255, 255, 15),50);              //color  blinker -> theaterChase(strip.Color(R, G, B),50); edit R G B =  255 255 15 -> Yellow 
+//  theaterChaseRainbow(30);                                 //color  blinker
 }
 
-
+//********************************function**************************************
 // Fill the dots one after the other with a color
 void colorWipe(uint32_t c, uint8_t wait) {
   for(uint16_t i=0; i<strip.numPixels(); i++) {
