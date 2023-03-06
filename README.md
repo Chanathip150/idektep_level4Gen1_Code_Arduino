@@ -71,5 +71,9 @@ Open file Name Integration_master
 Description Integration_master 
 link -> https://youtu.be/VBlgh3psJ4Q  
 
+## ESp 32 Cam 
+Select Bord -> AI Thinker ESP32-CAM
+Require -> esp version 1.0.6
+Serial Monitor -> 250000 Baud
 
 
