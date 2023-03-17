@@ -1,7 +1,7 @@
 void setup_command(){
   begin_head(); //หัวอยู่ในท่าปกติ 
   begin_twohand(); //มืออยู่ในท่าปกติ 
-  lcd_print(1,"idektepLevel 4",1,"Graphics");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
+  lcd_print(1,"Robot Head",1,"Name");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
   colorWipe(strip.Color(160, 160, 160), 50); //RGB Color white  edit colorWipe(strip.Color(R, G, B), 50);
 } 
 
@@ -18,6 +18,7 @@ void speech_command(){
 //  rainbowCycle(30);                                        // RGB show rainbow Cycle
 //  theaterChase(strip.Color(255, 255, 15),50);              //color  blinker -> theaterChase(strip.Color(R, G, B),50); edit R G B =  255 255 15 -> Yellow 
 //  theaterChaseRainbow(30);                                 //color  blinker
+//
 //  Lcd print 
 //  lcd_print(1,"Hello...",1," How are you?");    //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
 //
@@ -43,22 +44,28 @@ void speech_command(){
         head_turnright(150);
         break;
         
-      case show_: //command 1
-        colorWipe(strip.Color(224, 0, 224), 50); //RGB Color purple edit colorWipe(strip.Color(R, G, B), 50);
+      case idektep: //command 1
+        theaterChaseRainbow(30);  
+        rainbowCycle(30);  
         begin_twohand(); //มือลงในท่าปกติ 
-        lcd_print(1,"command show ",0,"RGB Color purple");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
+        lcd_print(1,"idektep ",0,"level 4 Gen 1");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
         break;
         
-      case command2: 
-      
+      case red: 
+        colorWipe(strip.Color(255,0,0), 50);  //RGB Color Red edit colorWipe(strip.Color(R, G, B), 50);
+        lcd_print(1,"RGB Color",0,"RED");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
         break;
         
-      case command3:
-      
+      case green:
+        colorWipe(strip.Color(0,255,0), 50);  //RGB Color green edit colorWipe(strip.Color(R, G, B), 50);     
+        lcd_print(1,"RGB Color",0,"GREEN");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
         break;
         
-      case command4:
-      
+      case goodbye:
+        begin_head();  
+        begin_twohand();
+        colorWipe(strip.Color(0, 0, 0), 50);
+        lcd_print(1,"sleeping.....",0,"z..z..z..z..");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
         break;
         
       case command5:

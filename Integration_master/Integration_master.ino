@@ -30,10 +30,10 @@ uint8_t buf[64];
 
 //*********************************edit**********************************
 #define Hello (0)         //Name command 0
-#define show_ (1)         //Name command 1
-#define command2 (2)      //Name command 2
-#define command3 (3)      //Name command 3
-#define command4 (4)      //Name command 4
+#define idektep (1)         //Name command 1
+#define red (2)      //Name command 2
+#define green (3)      //Name command 3
+#define goodbye (4)      //Name command 4
 #define command5 (5)      //Name command 5
 #define command6 (6)      //Name command 6
 //***********************************************************************
@@ -67,13 +67,13 @@ void setup() {
   }  
   if(myVR.load((uint8_t)Hello) >= 0){       //edit Name command 0 Name to match the line 32
   }
-  if(myVR.load((uint8_t)show_) >= 0){       //edit Name command 1 Name to match the line 33
+  if(myVR.load((uint8_t)idektep) >= 0){       //edit Name command 1 Name to match the line 33
   }
-  if(myVR.load((uint8_t)command2) >= 0){    //edit Name command 2 Name to match the line 34
+  if(myVR.load((uint8_t)red) >= 0){    //edit Name command 2 Name to match the line 34
   }
-  if(myVR.load((uint8_t)command3) >= 0){    //edit Name command 3 Name to match the line 35
+  if(myVR.load((uint8_t)green) >= 0){    //edit Name command 3 Name to match the line 35
   }
-  if(myVR.load((uint8_t)command4) >= 0){    //edit Name command 4 Name to match the line 36
+  if(myVR.load((uint8_t)goodbye) >= 0){    //edit Name command 4 Name to match the line 36
   }
   if(myVR.load((uint8_t)command5) >= 0){    //edit Name command 5 Name to match the line 37
   }
