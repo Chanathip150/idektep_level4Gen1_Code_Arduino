@@ -39,9 +39,11 @@ void setup() {
   lcd.begin();
   lcd.backlight();
 //  function 
-  rainbowCycle(30);
+//  rainbowCycle(30);
+  colorWipe(strip.Color(205,96,144), 50);  //RGB Color pink edit colorWipe(strip.Color(R, G, B), 50);
   lcd_print(1,"Robot Head",1,"Test Robot");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
   head_shake(80, 120); 
+  delay(100);
 }
 
 void loop() {
