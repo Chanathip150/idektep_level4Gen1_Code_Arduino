@@ -16,6 +16,8 @@ void head_shake(int x, int y) { //ส่ายหัว    turn left and turn ri
     servo_head.write(y);
   }
   delay(200);
+  servo_head.write(100);
+  delay(100);
   servo_head.detach();
 }
 void head_turnleft(int x) {     //ส่ายหัว ไปทางซ้าย  x คือค่าองศา ตั้งแต่ 0-100  turn left input x is in the range 0-100
