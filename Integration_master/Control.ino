@@ -44,9 +44,16 @@ void speech_command(){
         head_turnright(150);
         break;
         
-      case idektep: //command 1
-        theaterChaseRainbow(30);  
-        rainbowCycle(30);  
+      case Robot: //command 1
+        rainbowCycle(5);
+        begin_twohand(); //มือลงในท่าปกติ
+        delay(500);
+        lift_twohand(); //ยกสองมือ 
+        delay(500);
+        begin_twohand(); //มือลงในท่าปกต
+        delay(500); 
+        lift_twohand(); //ยกสองมือ 
+        delay(500);
         begin_twohand(); //มือลงในท่าปกติ 
         lcd_print(1,"idektep ",0,"level 4 Gen 1");  //print ข้อความ ลง LCD Lcd_print(ตำแหน่งแถว 0 , ข้อความ แถว0 , ตำแหน่งแถว 1 , ข้อความ แถว 1) 
         break;

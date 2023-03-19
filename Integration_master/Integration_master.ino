@@ -30,7 +30,7 @@ uint8_t buf[64];
 
 //*********************************edit**********************************
 #define Hello (0)         //Name command 0
-#define idektep (1)         //Name command 1
+#define Robot (1)         //Name command 1
 #define red (2)      //Name command 2
 #define green (3)      //Name command 3
 #define goodbye (4)      //Name command 4
@@ -67,7 +67,7 @@ void setup() {
   }  
   if(myVR.load((uint8_t)Hello) >= 0){       //edit Name command 0 Name to match the line 32
   }
-  if(myVR.load((uint8_t)idektep) >= 0){       //edit Name command 1 Name to match the line 33
+  if(myVR.load((uint8_t)Robot) >= 0){       //edit Name command 1 Name to match the line 33
   }
   if(myVR.load((uint8_t)red) >= 0){    //edit Name command 2 Name to match the line 34
   }
